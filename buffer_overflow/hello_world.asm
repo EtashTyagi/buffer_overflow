@@ -43,5 +43,5 @@ section .data
  	MSG_LEN:		equ $-message_	; message_length
  	SYS_WRITE:		equ 1		; write systemcall code
  	STDOUT:			equ 1		; standart output
-	EXIT_SUCCESS:	equ 0			; exit code success
+	EXIT_SUCCESS:		equ 0		; exit code success
  	SYS_EXIT:		equ 60		; exit systemcall code
